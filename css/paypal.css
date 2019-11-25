@@ -1,0 +1,39 @@
+html,body{
+    background-color: #342e2e;
+}
+
+.mainExito{
+    text-align: center;
+    position: relative;
+}
+
+.contenidoExito{
+    width: 30%;
+    height: 100%;
+    margin: auto;
+    position: absolute;
+    left: 35%;
+    top: 52px;
+}
+
+.contenidoExito a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.imagenExito{
+    border-radius: 200px 200px 200px 200px;
+    background-color: rgba(227, 227, 227, 0.5);
+    
+}
+
+.imagenExito img{
+    width: 90%;
+}
+
+.mensajeExito{
+    font-weight: bold;
+    font-size: 24px;
+}
+

@@ -1,0 +1,79 @@
+#detalleTitulo{
+    text-align: left;
+    font-size: 70px;
+    font-weight: bold;
+    vertical-align: bottom;
+    margin: 4%;
+}
+
+.imagenDetalle{
+    text-align: center;
+    margin: auto;
+}
+
+.imagenSize{
+    max-height: 390px;
+    max-width: 100%;
+}
+
+.servant{
+    padding: 0% 5%;
+}
+
+.servantName{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.servantDescription{
+    font-size: 20px;
+    text-align: justify;
+    padding: 2.31em 1.56em;
+    display: solid;
+    margin: auto;
+}
+
+.servantVideo{
+    position: relative; 
+    padding-bottom: 50%;
+}
+
+
+.servantVideo iframe{
+    position: absolute;
+    top:0;
+    left: 5%;
+    width: 90%;
+    height: 100%;
+}
+
+.servantSeparador{
+    background-image: url("https://heroesofthestorm.com/static/images/heroes/separator-main.png");
+    height: 3px;
+    margin: 0 7.6%;
+}
+
+
+
+@media (max-width:850px) {
+    
+    #detalleTitulo{
+        text-align: center;
+        font-size: 35px;
+    }
+    
+    .servantDescription{
+        font-size: 20px;
+        text-align: justify;
+        padding: 0 10%;
+        margin: auto;
+    }
+    .servantVideo{
+        display: none;
+    }
+    .servantSeparador{
+        height: 3px;
+        margin: 2% 6% 2% 11%;
+    }
+}

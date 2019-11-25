@@ -1,0 +1,46 @@
+body{
+  background-color:black;
+  color: white;
+}
+
+.container{
+  background-image: URL('http://cdn.shopify.com/s/files/1/0707/3783/products/russian-federation-flag_grande.jpg?v=1418151499');
+  background-size: contain;
+  display: flex;
+  border: 3px solid cyan;
+  border-radius: 50px;
+  text-align: center;
+  margin-top: 3vh;
+}
+
+.container div{
+  width: 100vh;
+  padding: 3vh;
+}
+
+.fotos{
+  text-align: center;
+}
+
+.fotos img{
+  height: 80vh;
+}
+
+.enlace{
+  padding: 2px;
+  text-align: center;
+}
+
+.enlace a:link{
+  text-decoration: none;
+  color: cyan;
+
+}
+
+.enlace a:hover{
+  color: red;
+}
+
+.enlace a:visited{
+  color: white;
+}

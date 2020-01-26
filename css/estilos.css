@@ -205,7 +205,7 @@ main .presentacion{
     justify-content: space-between;
     padding-left: 10%;
     padding-right: 10%;
-    background-color: gray; 
+    background-color: gray;
 }
 
 .atributos .atributo{
@@ -228,6 +228,7 @@ main .presentacion{
 .atributo img{
     max-width: 31vw;
     height: 100px;
+    border-radius: 30px;
 }
 
 /* //ATRIBUTOS */
@@ -235,7 +236,6 @@ main .presentacion{
 /*---------------------- MENCIONES ---------------------*/
 
 .mencionesFondo{
-    
     text-align: center;
     padding: 1%;
 
@@ -257,6 +257,8 @@ main .presentacion{
     background-color: white;
     color: darkblue;
     max-width: 20vw;
+    border-radius: 200px;
+    overflow: hidden;
 }
 
 .menciones p{
@@ -266,6 +268,7 @@ main .presentacion{
 
 .menciones img{
   width: 20vw;
+
 }
 /* //MENCIONES */
 
@@ -302,7 +305,7 @@ main .presentacion{
     .atributos{
         display: inherit;
     }
-    
+
     .atributos .atributo{
         margin: 5% 20%;
     }

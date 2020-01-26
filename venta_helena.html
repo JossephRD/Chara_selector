@@ -1,0 +1,103 @@
+<html lang="es" dir="ltr">
+    <head>
+        <title>Productos</title>
+        <link rel="shortcut icon" href="images\logo.png">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/estilos.css">
+        <link rel="stylesheet" href="css/mobile.css">
+        <link rel="stylesheet" href="css/animation.css">
+        <link rel="stylesheet" href="css/grid.css">
+        <link rel="stylesheet" href="css/venta.css">
+    </head>
+    <body>
+        <!--NAVBAR-->
+        <div class="header fadeInDown" id="navBarMenu">
+            <div class="brandImage">
+            <a href="index.html">
+            <img src="images\logo.png" alt="">
+            </a>
+            <div class="textLogo">
+                <h3>Asociación de másters del Curry</h3>
+                <h4>"Senpai siempre está con nosotros"</h4>
+                <h4>UMU</h4>
+            </div>
+        </div>
+            <div class="navOptions" id="navOptions">
+                <a href="index.html">Home</a>
+                <a href="producto.html">Servants</a>
+                <a href="https://twitter.com/kzenedark">Comprar lolis en darknet</a>
+                <a href="http://api.whatsapp.com/send?phone=+51991668565&amp;text=Buenas,+me+gustaria+tener+más+información+del+producto" target="_blank">Contactar</a>
+                <a href="javascript:void(0);" class="iconoMenu" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+        <!--/NAVBAR-->
+        <br>
+        <br>
+        <!--FORMULARIO VENTA-->
+        <div class="container" id="seccionPrincipal">
+            <div class="row">
+                <div class="col-4">
+                    <div class="moduloPago">
+                        <div class="moduloPagoImagen">
+                            <img src="images/Helena.jpg" alt=""/>
+                        </div>
+                        <div class="moduloPagoInfoChar">
+                            <div class="infoCharName">
+                                Helena Blatbatsky
+                            </div>
+                            <div class="infoCharDet">
+                                <b>Clase:</b> Caster<br>
+                                <b>Region:</b> Rusia <br>
+                                <b>Alineación:</b> Caotico Bueno<br>
+                                <b>Rareza:</b> SR (4☆)<br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="moduloPago">
+                        <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4KNB5WCPM7P66" method="post">
+                            <label for="name">Nombres:</label><br>
+                            <input class="data" type="text" name="first_name">
+                            <br>
+                            <label for="name">Apellidos:</label><br>
+                            <input class="data" type="text" name="last_name">
+                            <br>
+                            <label for="email">E-mail:</label><br>
+                            <input class="data" type="text" name="email">
+                            <br>
+                            <label for="phone">Telefono:</label><br>
+                            <input class="data" type="text" name="night_phone_b">
+                            <br>
+                            <input type="submit" value="Confirmar pago" class="btnVenta" name="submit">
+                            <input type="button" value="Cancelar" class="btnVenta" onclick="window.location='index.html'">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FORMULARIO VENTA  -->
+        <br>
+        <br>
+        <!--FOOTER-->
+        <div class="footer">
+            <div class="copyright">
+                Copyright © 2019 El Tío ruso. All rights reserverd.
+            </div>
+            <div class=footerMenu>
+                <ul>
+                    <li>Home</li>
+                    <li>Comprar lolis online</li>
+                </ul>
+            </div>
+        </div>
+        <!--/FOOTER-->
+        <script src="js/script.js"></script>
+    </body>
+</html>
